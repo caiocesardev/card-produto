@@ -7,37 +7,37 @@ const products = [
     id: 1,
     name: 'Camisa Santos',
     price: 149.99,
-    image: 'camisa_santos.jpg', // Nome da imagem local
+    image: 'camisa_santos.jpg',
   },
   {
     id: 2,
     name: 'Bermuda Santos',
     price: 89.99,
-    image: 'bermuda_santos.jpg', // Nome da imagem local
+    image: 'bermuda_santos.jpg', 
   },
   {
     id: 3,
     name: 'Boné Santos',
     price: 59.99,
-    image: 'bone_santos.jpg', // Nome da imagem local
+    image: 'bone_santos.jpg', 
   },
   {
     id: 4,
     name: 'Chuteira Santos',
     price: 249.99,
-    image: 'chuteira_santos.jpg', // Nome da imagem local
+    image: 'chuteira_santos.jpg', 
   },
   {
     id: 5,
     name: 'Caneca Santos',
     price: 39.99,
-    image: 'caneca_santos.jpg', // Nome da imagem local
+    image: 'caneca_santos.jpg', 
   },
   {
     id: 6,
     name: 'Luva Santos',
     price: 129.99,
-    image: 'luva_santos.jpg', // Nome da imagem local
+    image: 'luva_santos.jpg',
   },
 ];
 
@@ -49,7 +49,7 @@ export default function HomeScreen() {
           key={product.id}
           name={product.name}
           price={product.price}
-          image={product.image} // Passando o nome da imagem local
+          image={product.image} 
         />
       ))}
     </ScrollView>
